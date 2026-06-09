@@ -1,10 +1,10 @@
-# ⚡ AiKre8tive-Stargate
+# ⚡ ARC.AI-Stargate
 ### Advanced Biometric Authentication Engine
 
 > **Version:** 1.0.0 | **License:** MIT | **Status:** Operational
 
 ## 🚀 Overview
-**AiKre8tive-Stargate** is a critical component of the **Constellation25 Ecosystem**, engineered by CyGeL White. This build provides **Advanced Biometric Authentication Engine** capabilities designed for sovereignty, security, and scalability.
+**ARC.AI-Stargate** is a critical component of the **Constellation25 Ecosystem**, engineered by CyGeL White. This build provides **Advanced Biometric Authentication Engine** capabilities designed for sovereignty, security, and scalability.
 
 ## 🛠️ Technology Stack
 - **Core:** Python/AI, OpenCV
@@ -18,8 +18,8 @@
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/FacePrintPay/AiKre8tive-Stargate.git
-cd AiKre8tive-Stargate
+git clone https://github.com/FacePrintPay/ARC.AI-Stargate.git
+cd ARC.AI-Stargate
 
 # Install Dependencies
 if [ -f "package.json" ]; then npm install; fi
