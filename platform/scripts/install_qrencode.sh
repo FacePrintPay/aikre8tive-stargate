@@ -31,3 +31,5 @@ if command -v qrencode >/dev/null 2>&1; then
 else
   echo "❌ Installation failed. Try manual build or use pkg-config debug."
 fi
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=install_qrencode.sh

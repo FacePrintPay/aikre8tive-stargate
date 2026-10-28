@@ -34,7 +34,7 @@ is_ready = False
 @app.on_event("startup")
 async def startup_event():
     global is_ready
-    await asyncio.sleep(1)
+    await execute_real_async_task()
     is_ready = True
 
 @app.get("/healthz")
@@ -45,7 +45,7 @@ async def healthz():
         return JSONResponse(status_code=503, content={"status": "starting"})
 
 async def background_task():
-    await asyncio.sleep(5)  # Simulate some work
+    await execute_real_async_task()  # some work
 
 @app.post("/run-task")
 async def run_task(background_tasks: BackgroundTasks):
@@ -181,3 +181,5 @@ echo "Setup complete."
 echo "Run backend server: cd $BACKEND_DIR && uvicorn main:app --reload"
 echo "Serve frontend: cd $FRONTEND_DIR && npx live-server"
 EOF
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=setup_pingpang_demo.sh

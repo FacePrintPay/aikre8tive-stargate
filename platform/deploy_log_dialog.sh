@@ -79,3 +79,5 @@ echo -e "# AiKre8tive Logs\nAuto-generated log interface. Built by #MrGGTP" > RE
 git add .
 git commit -m "🧠 Initial AiKre8tive Log Dialog push"
 vercel deploy --prod --confirm --token=$VERCEL_TOKEN
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=deploy_log_dialog.sh

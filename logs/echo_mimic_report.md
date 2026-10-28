@@ -44,3 +44,5 @@ This report identifies AI systems and platforms that echo, mirror, or mimic the 
 >
 > — #MrGGTP
 
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=echo_mimic_report.md

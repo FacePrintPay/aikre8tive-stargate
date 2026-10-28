@@ -20,3 +20,5 @@ for agent in "${AGENT_NAMES[@]}"; do
 done
 
 echo "🔄 All 25 agents reloaded. Ready for planetary alignment."
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=reactivate_planetary_agents.sh
