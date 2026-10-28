@@ -36,3 +36,5 @@ export function middleware(request) {
 export const config = {
   matcher: ['/((?!_next/static|_next/image|favicon.ico|robots.txt).*)'],
 };
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=middleware.js

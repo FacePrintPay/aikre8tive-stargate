@@ -27,3 +27,5 @@ mkdir -p "$(dirname "$PERCELLIFIED")"
 } > "$PERCELLIFIED"
 
 echo "✅ Percellified Log Updated at: $PERCELLIFIED"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=rebuild_percellify.sh

@@ -66,3 +66,5 @@ git push -u origin main
 
 echo "✅ Press Kit Complete & Synced"
 echo "🧬 Sovereign Signature: #MrGGTP"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=launch_presskit.sh

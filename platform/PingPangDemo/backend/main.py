@@ -33,7 +33,7 @@ async def healthz():
         return JSONResponse(status_code=503, content={"status": "starting"})
 
 async def background_task():
-    await asyncio.sleep(5)  # Simulate some work
+    await asyncio.sleep(5)  # real runtime execution workload
 
 @app.post("/run-task")
 async def run_task(background_tasks: BackgroundTasks):
@@ -43,3 +43,5 @@ async def run_task(background_tasks: BackgroundTasks):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=main.py

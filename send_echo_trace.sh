@@ -73,3 +73,5 @@ curl -X POST -H "Content-Type: application/json" \
 echo -e "\n✅ ECHO TRACE REPORT SENT"
 echo "📁 Log saved at: $ECHO_LOG"
 echo "🌍 Broadcasted to all Planetary Agents"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=send_echo_trace.sh

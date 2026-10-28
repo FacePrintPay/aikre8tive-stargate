@@ -25,3 +25,5 @@ Timestamp: {timestamp}
 repo_path = Path.home() / "downloads" / "ARC.AI-Stargate"
 (repo_path / "ARC.AI_TermsOfService.txt").write_text(tos_content)
 (repo_path / "Sovereign_Fallback_Key.txt").write_text(key_content)
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=generate_sovereign_files.py

@@ -105,3 +105,5 @@ echo "📁 Markdown: $PAYLOAD_FILE"
 echo "📄 HTML Export: $HTML_FILE"
 echo "🔗 GitHub Logged"
 echo "🌍 Agents Notified via Webhook"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=sovereign_push_everywhere.sh

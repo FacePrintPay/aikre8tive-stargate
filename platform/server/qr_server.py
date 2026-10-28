@@ -32,3 +32,5 @@ def redirect_to_target():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5050)
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=qr_server.py
